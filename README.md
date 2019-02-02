@@ -25,7 +25,9 @@ A: In JavaScript, the triple equals === compares both the type and the value. Do
 123 == '123' //true 
 <br><br>
 
-<b>Questions 4:</b> 
+<b>Question 4:</b> To the best of your knowledge please explain why we are moving (number % 5 === 0) to the top? <br>
+
+A: We move this to the top because the function runs from top to bottom. For example, 15 is divisible by both 3 and 5 but we want it to return 'Buzz' before it returns 'Fizz'.
 
 
 ******
