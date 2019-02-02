@@ -59,9 +59,37 @@ We are initializing the browser & visiting the address for the server that we wi
 
 <b>Question 7:</b> To the best of your knowledge please explain what expectations in the context of testing are. <br>
 
-A: In testing, expectations tell our tests what we expect the outcome to be. Expectations are the answers to your questions. (A possible oversimplification?) <br><br>
+A: In testing, expectations tell our tests what we expect the outcome to be. Expectations are the answers to your questions. (A possible oversimplification?) 
+<br><br>
 
+<b>Question 8:</b> To the best of your knowledge please write a line to line explanation of what is happening in this code:
+```
+<script src="./js/fizz-buzz.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            let button = document.getElementById('button')
+            let displayDiv = document.getElementById('display_answer')
+            button.addEventListener('click', () =>{
+                let value = document.getElementById('value').value
+                let fizzBuzz = new FizzBuzz
+                let result = fizzBuzz.check(value)
+                displayDiv.innerHTML = result;
+            })
+        })
+    </script>
+```
 
+A: <br>
+1: script src pulls javascript code from the specified file. <br>
+2-6: the page is loaded, button and displayDiv are defined. <br>
+7-11: listening for someone to click the button, then evaluates the value entered and returns the result according to the game FizzBuzz.
+<br><br>
+
+<b>Question 9:</b> To the best of your knowledge please explain what a CDN (Content Delivery Network) is? <br>
+
+A: CDN, A Content Delivery Network, can be thought of as a content repeater. It takes content and repeats it to other conneted servers all around the world. Loading times are better, other servers can be used as backup in the event that something fails in one place. This works so long as the origin server remains.
+<br><br>
 
 ******
-created by: Amanda Gibson, https://github.com/amandagibson
+Created by: Amanda Gibson, https://github.com/amandagibson
+Built using JavaScript.
