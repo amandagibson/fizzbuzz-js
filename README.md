@@ -57,6 +57,11 @@ A: This describe block is describing asynchronous flow. <br>
 We are initializing the browser & visiting the address for the server that we will be testing on, reloading after each test, and making sure the browswer closes after testing. With async these things can initialize while the processes that started before them are still running, there's no need for each process to wait for completion of the other before starting.
 <br><br>
 
+<b>Question 7:</b> To the best of your knowledge please explain what expectations in the context of testing are. <br>
+
+A: In testing, expectations tell our tests what we expect the outcome to be. Expectations are the answers to your questions. (A possible oversimplification?) <br><br>
+
+
 
 ******
 created by: Amanda Gibson, https://github.com/amandagibson
