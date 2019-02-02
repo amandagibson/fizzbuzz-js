@@ -91,5 +91,5 @@ A: CDN, A Content Delivery Network, can be thought of as a content repeater. It 
 <br><br>
 
 ******
-Created by: Amanda Gibson, https://github.com/amandagibson
+Created by: Amanda Gibson, https://github.com/amandagibson <br>
 Built using JavaScript.
