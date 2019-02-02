@@ -10,4 +10,4 @@ function FizzBuzz() {
             return number
         }
     }
-}
+};

@@ -1,6 +1,8 @@
-require('./spec.helper');
+const { expect } = require('chai');
+const BrowserHelpers = require('e2e_training_wheels')
+const browser = new BrowserHelpers()
 
-context('Your Description of the test scenario', () => {
+describe('User can input a number and play FizzBuzz', () => {
   before(async () => {
     await browser.init()
     await browser.visitPage('http://localhost:8080/')
@@ -10,7 +12,7 @@ context('Your Description of the test scenario', () => {
     await browser.page.reload();
   });
   
-  after(() => {
+  after(async () => {
     browser.close();
   });
   
