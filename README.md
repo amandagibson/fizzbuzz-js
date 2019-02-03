@@ -1,5 +1,6 @@
 # JavaScript FizzBuzz
-
+Deployed with netlify at https://wonderful-newton-3d54e6.netlify.com/
+***********
 <b>Question 1:</b> To the best of your knowledge please explain what the following lines of code do:
 ```
 let  fizzBuzz = fs.readFileSync('./src/js/fizz-buzz.js');
