@@ -1,5 +1,14 @@
 # JavaScript FizzBuzz
-Deployed with netlify at https://wonderful-newton-3d54e6.netlify.com/
+Deployed with netlify at https://wonderful-newton-3d54e6.netlify.com/ <br>
+
+- <b>Instructions:</b>
+To play, open the browswer and enter a number into the field, click on 'click' button. Answer is displayed below your input.<br>
+- <b>Rules:</b> 
+The rules of FizzBuzz are as follows: So that the game can be played by the rules; I want a number divisible by 3 to return 'fizz', a number divisible by 5 to return 'buzz', and a number divisible by 15 to return 'fizzbuzz'.<br>
+- <b>Testing:</b> 
+Testing for this program can be run through terminal using npm run test.
+
+
 ***********
 <b>Question 1:</b> To the best of your knowledge please explain what the following lines of code do:
 ```
@@ -93,4 +102,4 @@ A: CDN, A Content Delivery Network, can be thought of as a content repeater. It 
 
 ******
 Created by: Amanda Gibson, https://github.com/amandagibson <br>
-Built using JavaScript.
+Built using JavaScript. Styled with Tailwind and HTML.
