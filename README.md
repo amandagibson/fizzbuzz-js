@@ -1,5 +1,15 @@
 # JavaScript FizzBuzz
+Deployed with netlify at https://fizzbuzzbomb.netlify.com/ <br>
 
+- <b>Instructions:</b>
+To play, open the browswer and enter a number into the field, click on 'click' button. Answer is displayed below your input.<br>
+- <b>Rules:</b>
+The rules of FizzBuzz are as follows: So that the game can be played by the rules; I want a number divisible by 3 to return 'fizz', a number divisible by 5 to return 'buzz', and a number divisible by 15 to return 'fizzbuzz'.<br>
+- <b>Testing:</b>
+Testing for this program can be run through terminal using npm run test.
+
+
+***********
 <b>Question 1:</b> To the best of your knowledge please explain what the following lines of code do:
 ```
 let  fizzBuzz = fs.readFileSync('./src/js/fizz-buzz.js');
@@ -22,7 +32,7 @@ A: We are creating new objects from the function FizzBuzz.
 
 A: In JavaScript, the triple equals === compares both the type and the value. Double equals == doesn't compare the type so much as it compares more of the vaule of two things. i.e. <br>
 123 === '123' // false<br>
-123 == '123' //true 
+123 == '123' //true
 <br><br>
 
 <b>Question 4:</b> To the best of your knowledge please explain why we are moving (number % 5 === 0) to the top? <br>
@@ -59,7 +69,7 @@ We are initializing the browser & visiting the address for the server that we wi
 
 <b>Question 7:</b> To the best of your knowledge please explain what expectations in the context of testing are. <br>
 
-A: In testing, expectations tell our tests what we expect the outcome to be. Expectations are the answers to your questions. (A possible oversimplification?) 
+A: In testing, expectations tell our tests what we expect the outcome to be. Expectations are the answers to your questions. (A possible oversimplification?)
 <br><br>
 
 <b>Question 8:</b> To the best of your knowledge please write a line to line explanation of what is happening in this code:
